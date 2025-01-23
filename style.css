@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: 'Josefin-Sans';
-    src: url(JosefinSans-VariableFont_wght.ttf) format('truetype');
+    src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
 }
 
 
@@ -37,7 +37,7 @@ header {
     display: flex;
     background-color: #0d7272;
     margin: -2%;
-    padding-bottom: -4vh;
+
 
 }
 
@@ -95,6 +95,15 @@ footer nav ul{
 footer nav ul li p {
     margin: -10px;
     text-align: center;
+}
+
+a:hover {
+    background-color: black;
+}
+
+a:focus {
+    color: white;
+    background-color: black;
 }
 
 /* specifiek home screen gerelateerd */
@@ -172,46 +181,24 @@ h1{
     text-align: center;
 }
 
+.duurzaam h2{
+    margin-top: -3px;
+}
+
 hr {
     width: 40vw;
     margin: auto;
     border-top: 1px solid #000;
 }
 
-.groen {
+.wit2 {
     display: flex;
-    flex-direction: wrap;
-    background-color: #95bca0;
+    align-items: center;;
+    background-color: #ededed;
     margin-left: -4vw;
     margin-right: -6vw;
-    padding: 2%
-}
-
-.blauw {
-    display: flex;
-    flex-direction: wrap;
-    background-color: #8cadba;
-    margin-left: -4vw;
-    margin-right: -6vw;
-    padding: 2%
-}
-
-.bruin {
-    display: flex;
-    flex-direction: wrap;
-    background-color: #b7a08b;
-    margin-left: -4vw;
-    margin-right: -6vw;
-    padding: 2%
-}
-
-.rood {
-    display: flex;
-    flex-direction: wrap;
-    background-color: #b58c8c;
-    margin-left: -4vw;
-    margin-right: -6vw;
-    padding: 2%
+    padding: 2%;
+    padding-right: 4vw;
 }
 
 .vertikaal{
@@ -220,6 +207,25 @@ hr {
 
     border: none;
     background-color: black;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-right: 10px;
 }
+
+.ruimte {
+    margin-top: 60px;
+}
+
+.ruimte2 {
+    margin-top: 30px;
+}
+
+.h2_kop{
+    margin-top: -15px;
+}
+
+.wit2 img {
+    margin-left: 1vw;
+    width: 40px;
+    height: 40px;
+}
+
